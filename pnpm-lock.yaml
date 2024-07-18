@@ -14,6 +14,9 @@ patchedDependencies:
   chokidar@3.6.0:
     hash: bckcfsslxcffppz65mxcq6naau
     path: patches/chokidar@3.6.0.patch
+  conventional-changelog-angular@8.0.0:
+    hash: koilzym5pszdohag44fcwbgvbu
+    path: patches/conventional-changelog-angular@8.0.0.patch
   http-proxy@1.18.1:
     hash: qqiqxx62zlcu62nljjmhlvexni
     path: patches/http-proxy@1.18.1.patch
@@ -9354,7 +9357,7 @@ snapshots:
 
   content-type@1.0.5: {}
 
-  conventional-changelog-angular@8.0.0:
+  conventional-changelog-angular@8.0.0(patch_hash=koilzym5pszdohag44fcwbgvbu):
     dependencies:
       compare-func: 2.0.0
 
@@ -9414,7 +9417,7 @@ snapshots:
 
   conventional-changelog@6.0.0(conventional-commits-filter@5.0.0):
     dependencies:
-      conventional-changelog-angular: 8.0.0
+      conventional-changelog-angular: 8.0.0(patch_hash=koilzym5pszdohag44fcwbgvbu)
       conventional-changelog-atom: 5.0.0
       conventional-changelog-codemirror: 5.0.0
       conventional-changelog-conventionalcommits: 8.0.0

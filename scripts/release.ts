@@ -7,7 +7,9 @@ release({
   packages: ['vite', 'create-vite', 'plugin-legacy'],
   toTag: (pkg, version) =>
     pkg === 'vite' ? `v${version}` : `${pkg}@${version}`,
-  logChangelog: (pkg) => logRecentCommits(pkg),
+  logChangelog: (pkg) => {
+    console.log(pkg)
+  },
   generateChangelog: async (pkgName) => {
     if (pkgName === 'create-vite') await updateTemplateVersions()
 

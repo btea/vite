@@ -1,0 +1,13 @@
+diff --git a/src/writer.js b/src/writer.js
+index fe6755fc11a93ef16ed4587fd8e4bf8042787e20..6d0abc25a944c80eb94ba77c1410d656bb5d99e5 100644
+--- a/src/writer.js
++++ b/src/writer.js
+@@ -63,7 +63,7 @@ function getWriterOpts () {
+ 
+       const scope = commit.scope === '*' ? '' : commit.scope
+       const shortHash = typeof commit.hash === 'string'
+-        ? commit.hash.substring(0, 7)
++        ? commit.hash
+         : commit.shortHash
+ 
+       const issues = []
