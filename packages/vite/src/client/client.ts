@@ -9,7 +9,6 @@ import {
   normalizeModuleRunnerTransport,
 } from '../shared/moduleRunnerTransport'
 import { moduleUrlToBrowserUrl } from '../shared/utils'
-import type { BundledDevHMRClient } from './bundledDevHmrClient'
 import type { RuntimeErrorsToast } from './overlay'
 import {
   ErrorOverlay,
